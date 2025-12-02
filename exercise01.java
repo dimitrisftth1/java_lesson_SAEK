@@ -1,6 +1,13 @@
 class exercise01 {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.println("My name is Dimitris Margaritis!");
+        int die1 = 3;
+        int die2 = 3;
+
+        if (die1>die2)
+            System.out.println("Niki A");
+        else if (die1<die2)
+            System.out.println("Niki B");
+        else
+            System.out.println("Isopalia");
     }
 }

@@ -1,6 +1,7 @@
-class exercise02 {
+public class exercise02 {
     public static void main(String[] args) {
-        System.out.print("Hello World!");
-        System.out.print("I am going to learn Java!");
+        int x = -3;
+
+        System.out.println(x>=0? x: -x);
     }
 }
